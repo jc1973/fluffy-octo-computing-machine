@@ -1,0 +1,16 @@
+{
+  "apps" : [
+  {
+    // Application #1
+    "name"        : "log.io-server",
+    "script"      : "/usr/local/bin/log.io-server"
+    //"merge_logs"  : true,
+  },
+  {
+    // Application #2
+    "name"        : "log.io-harvester",
+    "script"      : "/usr/local/bin/log.io-harvester"
+    //"merge_logs"  : true,
+  }
+]
+}
